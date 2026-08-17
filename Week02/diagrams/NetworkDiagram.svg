@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="1000" height="800" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="500" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a1a1a">Enterprise Network Diagram — ABC Startup Solutions</text>
+  <text x="500" y="52" text-anchor="middle" font-size="13" fill="#444">Prepared by: Charles Gabrielle Banagan | ITEP 414 - Week 2</text>
+
+  <!-- Internet cloud -->
+  <ellipse cx="500" cy="100" rx="70" ry="30" fill="#e8f0fe" stroke="#4472c4" stroke-width="1.5"/>
+  <text x="500" y="105" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">Internet</text>
+
+  <!-- ISP Modem -->
+  <rect x="440" y="160" width="120" height="44" rx="6" fill="#fff2cc" stroke="#bf9000" stroke-width="1.5"/>
+  <text x="500" y="187" text-anchor="middle" font-size="13" fill="#1a1a1a">ISP Modem</text>
+
+  <!-- Router -->
+  <rect x="440" y="234" width="120" height="44" rx="6" fill="#d9ead3" stroke="#38761d" stroke-width="1.5"/>
+  <text x="500" y="261" text-anchor="middle" font-size="13" fill="#1a1a1a">Router</text>
+
+  <!-- Firewall -->
+  <rect x="440" y="308" width="120" height="44" rx="6" fill="#f4cccc" stroke="#a61c00" stroke-width="1.5"/>
+  <text x="500" y="335" text-anchor="middle" font-size="13" fill="#1a1a1a">Firewall</text>
+
+  <!-- Core Switch -->
+  <rect x="430" y="382" width="140" height="44" rx="6" fill="#cfe2f3" stroke="#1155cc" stroke-width="1.5"/>
+  <text x="500" y="409" text-anchor="middle" font-size="13" fill="#1a1a1a">Core Switch</text>
+
+  <!-- Vertical chain connectors -->
+  <line x1="500" y1="130" x2="500" y2="160" stroke="#555" stroke-width="2"/>
+  <line x1="500" y1="204" x2="500" y2="234" stroke="#555" stroke-width="2"/>
+  <line x1="500" y1="278" x2="500" y2="308" stroke="#555" stroke-width="2"/>
+  <line x1="500" y1="352" x2="500" y2="382" stroke="#555" stroke-width="2"/>
+
+  <!-- Bus line from switch -->
+  <line x1="500" y1="426" x2="500" y2="470" stroke="#555" stroke-width="2"/>
+  <line x1="80" y1="470" x2="920" y2="470" stroke="#555" stroke-width="2"/>
+
+  <!-- Drops to 7 endpoints -->
+  <line x1="80" y1="470" x2="80" y2="500" stroke="#555" stroke-width="2"/>
+  <line x1="220" y1="470" x2="220" y2="500" stroke="#555" stroke-width="2"/>
+  <line x1="360" y1="470" x2="360" y2="500" stroke="#555" stroke-width="2"/>
+  <line x1="500" y1="470" x2="500" y2="500" stroke="#555" stroke-width="2"/>
+  <line x1="640" y1="470" x2="640" y2="500" stroke="#555" stroke-width="2"/>
+  <line x1="780" y1="470" x2="780" y2="500" stroke="#555" stroke-width="2"/>
+  <line x1="920" y1="470" x2="920" y2="500" stroke="#555" stroke-width="2"/>
+
+  <!-- Server -->
+  <rect x="20" y="500" width="120" height="50" rx="6" fill="#d0e0e3" stroke="#134f5c" stroke-width="1.5"/>
+  <text x="80" y="522" text-anchor="middle" font-size="12" fill="#1a1a1a">Server</text>
+  <text x="80" y="538" text-anchor="middle" font-size="10" fill="#444">(File/App + Backup)</text>
+
+  <!-- Printer -->
+  <rect x="160" y="500" width="120" height="50" rx="6" fill="#ead1dc" stroke="#a64d79" stroke-width="1.5"/>
+  <text x="220" y="530" text-anchor="middle" font-size="12" fill="#1a1a1a">Network Printer</text>
+
+  <!-- Wireless AP -->
+  <rect x="300" y="500" width="120" height="50" rx="6" fill="#d9d2e9" stroke="#351c75" stroke-width="1.5"/>
+  <text x="360" y="522" text-anchor="middle" font-size="12" fill="#1a1a1a">Wireless</text>
+  <text x="360" y="538" text-anchor="middle" font-size="12" fill="#1a1a1a">Access Point</text>
+
+  <!-- IT Dept -->
+  <rect x="440" y="500" width="120" height="50" rx="6" fill="#c9daf8" stroke="#1c4587" stroke-width="1.5"/>
+  <text x="500" y="522" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a">IT Dept</text>
+  <text x="500" y="538" text-anchor="middle" font-size="10" fill="#444">5 employees</text>
+
+  <!-- HR Dept -->
+  <rect x="580" y="500" width="120" height="50" rx="6" fill="#c9daf8" stroke="#1c4587" stroke-width="1.5"/>
+  <text x="640" y="522" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a">HR Dept</text>
+  <text x="640" y="538" text-anchor="middle" font-size="10" fill="#444">4 employees</text>
+
+  <!-- Finance Dept -->
+  <rect x="720" y="500" width="120" height="50" rx="6" fill="#c9daf8" stroke="#1c4587" stroke-width="1.5"/>
+  <text x="780" y="522" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a">Finance Dept</text>
+  <text x="780" y="538" text-anchor="middle" font-size="10" fill="#444">5 employees</text>
+
+  <!-- Sales Dept -->
+  <rect x="860" y="500" width="120" height="50" rx="6" fill="#c9daf8" stroke="#1c4587" stroke-width="1.5"/>
+  <text x="920" y="522" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a">Sales Dept</text>
+  <text x="920" y="538" text-anchor="middle" font-size="10" fill="#444">6 employees</text>
+
+  <!-- Legend -->
+  <rect x="20" y="620" width="960" height="150" rx="8" fill="#fafafa" stroke="#ccc" stroke-width="1"/>
+  <text x="40" y="645" font-size="13" font-weight="bold" fill="#1a1a1a">Legend / Flow Summary</text>
+  <text x="40" y="670" font-size="12" fill="#333">Internet → ISP Modem → Router → Firewall → Core Switch → distributed to Server, Printer, Wireless AP, and each department segment.</text>
+  <text x="40" y="692" font-size="12" fill="#333">All department workstations connect to the Core Switch via structured CAT6 cabling through the patch panel (see Part 4: Network Inventory).</text>
+  <text x="40" y="714" font-size="12" fill="#333">Wireless devices (laptops, mobile) connect via the Wireless Access Point, which is uplinked to the Core Switch.</text>
+  <text x="40" y="736" font-size="12" fill="#333">Firewall enforces perimeter security between the Router and the internal LAN; VLAN segmentation isolates department traffic.</text>
+  <text x="40" y="758" font-size="11" fill="#777">Reference layout — see README.md Part 5 note on producing the official Draw.io PNG/PDF export.</text>
+</svg>
